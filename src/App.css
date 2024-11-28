@@ -1,0 +1,77 @@
+/* General styling for the body */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: url('/cloud-image.png.jpeg') no-repeat center center fixed;
+  background-size: cover;
+  color: #333; /* Standard font color */
+}
+
+/* Headings and paragraph styling */
+h1, h2, p {
+  margin: 0; /* Removes default margin for consistency */
+}
+
+/* Weather icon styling with drop shadow */
+.weather-icon {
+  filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.5));
+}
+
+/* Styling for forecast day text */
+.forecast-day {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* Styling for dropdown (select element) */
+select {
+  padding: 8px;
+  border-radius: 6px;
+  background: white;
+  border: 1px solid #ccc; /* Added border for better visibility */
+}
+
+/* Styling for input fields */
+input {
+  width: 70%;
+  padding: 10px;
+  margin-right: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc; /* Border for input */
+  border-radius: 6px;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1); /* Subtle inner shadow for depth */
+}
+
+/* Button styling */
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #007bff; /* Default blue */
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Forecast card styling */
+.forecast-card {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.7); /* Semi-transparent background */
+  border-radius: 12px;
+  padding: 10px;
+  margin: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Soft shadow */
+  color: black; /* Ensures text visibility on light background */
+}
+
+/* Styling for temperature text inside forecast cards */
+.forecast-card .temp {
+  font-size: 16px;
+  font-weight: bold;
+  color: #007bff; /* Consistent blue color for temperatures */
+}
